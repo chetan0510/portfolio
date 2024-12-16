@@ -44,7 +44,7 @@ body {
     height: 30px;
     width: 150px;
     background-color: rgb(189, 189, 189);
-    background-image: url('./search-icon.png');
+    background-image: url('./imgs/search-icon.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 120px center;
@@ -58,7 +58,7 @@ body {
 .section-1 {
     height: calc(100vh - 100px);
     background-color: rgb(52, 53, 58);
-    background-image: url('/man-img.png');
+    background-image: url('./imgs/man-img.png');
     background-repeat: no-repeat;
     background-position: center right;
     /* border: 2px solid green; */
