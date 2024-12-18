@@ -15,7 +15,7 @@ body {
     z-index: 99;
 }
 
-.navbar>.logo {
+.logo {
     height: 40px;
     width: 40px;
     background-color: rgb(249, 204, 108);
@@ -57,6 +57,7 @@ body {
 
 .section-1 {
     height: calc(100vh - 100px);
+    width: 100%;
     background-color: rgb(52, 53, 58);
     background-image: url('./imgs/man-img.png');
     background-repeat: no-repeat;
@@ -483,7 +484,7 @@ body {
 
 .section-5 {
     height: 600px;
-    background-color:rgb(49,51,59);
+    background-color: rgb(49, 51, 59);
     position: relative;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -583,7 +584,7 @@ body {
     border-radius: 40px 0 0 40px;
 }
 
-.boy-image{
+.boy-image {
     height: 400px;
     position: absolute;
     top: 100px;
@@ -646,7 +647,7 @@ body {
 .contact-area {
     height: 300px;
     width: 100%;
-    background-color:rgb(61,62,66);
+    background-color: rgb(61, 62, 66);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -688,7 +689,6 @@ body {
     bottom: -25px;
 }
 
-
 .footer-thanks {
     height: 300px;
     width: 100%;
@@ -698,4 +698,10 @@ body {
     justify-content: center;
     font-size: 25px;
     color: rgb(249, 204, 108);
+}
+
+@media (max-width:400px) {
+   .icons-area{
+        right: 0;
+   }
 }
