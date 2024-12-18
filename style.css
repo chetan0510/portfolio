@@ -69,7 +69,6 @@ body {
     align-items: center;
     padding-left: 20vw;
     position: relative;
-    flex-wrap: wrap;
 }
 
 .sec-1-left {
@@ -702,7 +701,9 @@ body {
 }
 
 @media (max-width:500px) {
-   .icons-area{
+    .icons-area {
         right: 0;
-   }
+        scale: 70%;
+        bottom: 70px;
+    }
 }
