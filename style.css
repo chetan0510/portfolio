@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -701,9 +705,13 @@ body {
 }
 
 @media (max-width:500px) {
+    #root{
+        width: 100vw;
+        overflow-x: hidden;
+    }
     .icons-area {
         right: 0;
         scale: 70%;
-        bottom: 70px;
+        bottom: 100px;
     }
 }
