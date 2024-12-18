@@ -69,6 +69,7 @@ body {
     align-items: center;
     padding-left: 20vw;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .sec-1-left {
@@ -700,7 +701,7 @@ body {
     color: rgb(249, 204, 108);
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
    .icons-area{
         right: 0;
    }
